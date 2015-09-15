@@ -10,6 +10,7 @@
   "author": "Derek Peruo <derek@derekperuo.net>",
   "license": "MIT",
   "devDependencies": {
+    "jasmine": "^2.3.2",
     "jshint": "^2.8.0",
     "uglify-js": "^2.4.24"
   },
