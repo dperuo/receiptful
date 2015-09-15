@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/dperuo/receiptful.svg?branch=master)](https://travis-ci.org/dperuo/receiptful)
+
 receiptful
 ==========
 
