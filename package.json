@@ -1,0 +1,23 @@
+{
+  "name": "receiptful",
+  "version": "1.0.0",
+  "description": "Coding challenge for Receiptful",
+  "main": "src/flatten-array.js",
+  "bin": "dist/flatten-array.min.js",
+  "directories": {
+    "test": "test"
+  },
+  "author": "Derek Peruo <derek@derekperuo.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "jshint": "^2.8.0",
+    "uglify-js": "^2.4.24"
+  },
+  "scripts": {
+    "prebuild": "./node_modules/.bin/jshint ./src/flatten-array.js",
+    "build": "./node_modules/.bin/uglifyjs ./src/flatten-array.js --compress --mangle --output ./dist/flatten-array.min.js",
+    "pretest": "./node_modules/.bin/jshint ./spec/flatten-array.spec.js",
+    "test": "./node_modules/.bin/jasmine",
+    "start": "npm run build && npm run test"
+  }
+}
