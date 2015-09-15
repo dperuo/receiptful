@@ -74,10 +74,10 @@ var sortedReversed = flattenArray(nested, {sortByNum: true, reversed: true});
 | `.jscsrc` | Config file used by JSCS
 | `.jshintrc` | Config file used by JSHint
 | `.travis.yml` | Config file used by Travis CI
+| `CONTRIBUTING.md` | How to contribute to this project
 | `LICENSE` | The license for this repo
 | `package.json` | Package file for npm
 | `README.md` | This file
-| `CONTRIBUTING.md` | How to contribute to this project
 
 ## Contributing
 
